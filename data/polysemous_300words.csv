@@ -1,0 +1,261 @@
+word,domain_primary,domain_secondary,polysemy_type,expected_senses,notes
+bat,animal,sports,homonymy,2,flying mammal vs baseball equipment
+crane,animal,machine,homonymy,2,bird vs lifting device
+mouse,animal,technology,homonymy,2,rodent vs computer device
+bass,animal,music,homonymy,2,fish vs low frequency
+fly,animal,action,homonymy,2,insect vs move through air
+perch,animal,position,homonymy,2,fish vs resting place
+sole,animal,object,homonymy,2,fish vs bottom of shoe
+mole,animal,spy,homonymy,2,burrowing animal vs undercover agent
+hawk,animal,action,metaphor,2,bird vs aggressive selling
+swallow,animal,action,homonymy,2,bird vs gulp
+dove,animal,politics,metaphor,2,bird vs peace advocate
+robin,animal,name,homonymy,2,bird vs personal name
+crab,animal,behavior,metaphor,2,crustacean vs irritable person
+seal,animal,object,homonymy,2,marine mammal vs closure device
+bug,animal,technology,homonymy,2,insect vs software error
+spider,animal,technology,metaphor,2,arachnid vs web crawler
+leech,animal,behavior,metaphor,2,worm vs exploitative person
+tick,animal,action,homonymy,2,parasite vs check mark
+slug,animal,action,homonymy,2,mollusk vs punch
+pupil,body,education,homonymy,2,eye part vs student
+head,body,organization,regular_polysemy,3,body part vs leader vs top
+foot,body,measurement,regular_polysemy,2,body part vs unit of length
+arm,body,weapon,regular_polysemy,2,body part vs weapon
+face,body,surface,regular_polysemy,2,body part vs front surface
+eye,body,attention,regular_polysemy,2,body part vs center/attention
+palm,body,plant,homonymy,2,hand part vs tree
+temple,body,building,homonymy,2,head part vs place of worship
+back,body,direction,regular_polysemy,2,body part vs rear
+heart,body,emotion,regular_polysemy,2,organ vs center/emotion
+vessel,body,container,regular_polysemy,2,blood vessel vs ship/container
+chest,body,container,regular_polysemy,2,body part vs storage box
+neck,body,geography,regular_polysemy,2,body part vs narrow passage
+tongue,body,language,regular_polysemy,2,body part vs language
+shoulder,body,road,regular_polysemy,2,body part vs road edge
+hip,body,style,regular_polysemy,2,body part vs fashionable
+bone,body,essence,regular_polysemy,2,body part vs core
+skin,body,surface,regular_polysemy,2,body part vs outer layer
+muscle,body,power,regular_polysemy,2,body part vs force/influence
+nerve,body,courage,regular_polysemy,2,body part vs boldness
+joint,body,place,regular_polysemy,2,body part vs establishment
+limb,body,tree,regular_polysemy,2,body part vs tree branch
+lap,body,circuit,regular_polysemy,2,body part vs race circuit
+rib,body,structure,regular_polysemy,2,body part vs structural support
+spine,body,book,regular_polysemy,2,body part vs book edge
+crown,body,royalty,regular_polysemy,2,head top vs royal headpiece
+brow,body,hill,regular_polysemy,2,forehead vs hill top
+gut,body,intuition,regular_polysemy,2,intestine vs instinct
+vein,body,style,regular_polysemy,2,blood vessel vs manner/style
+liver,body,resident,homonymy,2,organ vs one who lives
+lobe,body,electronics,regular_polysemy,2,ear/brain part vs antenna part
+chip,technology,food,homonymy,2,microchip vs potato chip
+board,technology,organization,regular_polysemy,2,circuit board vs committee
+monitor,technology,action,regular_polysemy,2,screen vs observe
+screen,technology,action,regular_polysemy,2,display vs filter/examine
+drive,technology,action,regular_polysemy,3,storage vs operate vs campaign
+port,technology,geography,homonymy,2,computer port vs harbor
+terminal,technology,transport,regular_polysemy,2,computer terminal vs station
+server,technology,person,regular_polysemy,2,computer server vs waiter
+web,technology,nature,metaphor,2,internet vs spider web
+net,technology,sports,regular_polysemy,2,internet vs fishing/sports net
+cell,technology,biology,homonymy,3,phone vs biological vs prison
+tablet,technology,medicine,homonymy,2,device vs pill
+mouse,technology,animal,homonymy,2,device vs rodent
+window,technology,building,regular_polysemy,2,software window vs glass pane
+bug,technology,animal,homonymy,2,software error vs insect
+crash,technology,collision,regular_polysemy,2,system crash vs collision
+memory,technology,cognition,regular_polysemy,2,computer memory vs human memory
+cloud,technology,weather,metaphor,2,cloud computing vs weather
+stream,technology,water,metaphor,2,data stream vs water flow
+bridge,technology,structure,regular_polysemy,2,network bridge vs physical bridge
+domain,technology,territory,regular_polysemy,2,web domain vs area of control
+host,technology,person,regular_polysemy,2,server host vs party host
+patch,technology,material,regular_polysemy,2,software patch vs cloth patch
+cookie,technology,food,homonymy,2,browser cookie vs baked good
+firewall,technology,building,metaphor,2,security vs fire barrier
+virus,technology,biology,metaphor,2,computer virus vs pathogen
+kernel,technology,food,metaphor,2,OS kernel vs seed core
+shell,technology,nature,metaphor,2,command shell vs outer covering
+root,technology,plant,metaphor,2,system root vs plant root
+branch,technology,plant,metaphor,2,code branch vs tree branch
+bank,institution,geography,homonymy,2,financial vs river bank
+court,institution,space,regular_polysemy,2,legal vs sports court
+bar,institution,object,homonymy,3,pub vs legal profession vs rod
+cabinet,institution,furniture,homonymy,2,government vs storage
+club,institution,object,regular_polysemy,2,organization vs weapon
+party,institution,event,regular_polysemy,2,political vs celebration
+press,institution,action,regular_polysemy,2,media vs push
+church,institution,building,regular_polysemy,2,organization vs building
+school,institution,group,regular_polysemy,2,institution vs group of fish
+office,institution,duty,regular_polysemy,2,workplace vs position/duty
+firm,institution,adjective,homonymy,2,company vs solid
+company,institution,group,regular_polysemy,2,business vs companionship
+house,institution,building,regular_polysemy,2,legislative vs dwelling
+chamber,institution,room,regular_polysemy,2,legislative vs room
+bench,institution,furniture,regular_polysemy,2,judiciary vs seat
+board,institution,object,regular_polysemy,2,committee vs flat surface
+trust,institution,emotion,regular_polysemy,2,organization vs belief
+foundation,institution,base,regular_polysemy,2,organization vs base
+union,institution,joining,regular_polysemy,2,organization vs joining
+congress,institution,gathering,regular_polysemy,2,legislature vs gathering
+chair,institution,furniture,regular_polysemy,2,position vs seat
+seat,institution,furniture,regular_polysemy,2,position vs chair
+floor,institution,surface,regular_polysemy,2,speaking rights vs surface
+table,institution,furniture,regular_polysemy,2,postpone vs furniture
+order,institution,sequence,regular_polysemy,3,command vs arrangement vs organization
+staff,institution,object,homonymy,2,employees vs stick
+post,institution,object,regular_polysemy,2,position vs pole
+quarter,institution,fraction,regular_polysemy,2,district vs fourth
+division,institution,math,regular_polysemy,2,department vs separation
+branch,institution,plant,regular_polysemy,2,office branch vs tree branch
+spring,nature,season,homonymy,3,water source vs season vs coil
+delta,nature,letter,homonymy,2,river delta vs Greek letter
+bed,nature,furniture,regular_polysemy,2,river bed vs sleeping furniture
+mouth,nature,body,regular_polysemy,2,river mouth vs body part
+channel,nature,media,regular_polysemy,2,waterway vs TV channel
+current,nature,time,regular_polysemy,2,water flow vs present time
+wave,nature,action,regular_polysemy,2,ocean wave vs hand gesture
+field,nature,domain,regular_polysemy,2,open land vs area of study
+pool,nature,group,regular_polysemy,2,water pool vs shared resource
+bank,nature,institution,homonymy,2,river bank vs financial
+fork,nature,utensil,regular_polysemy,2,river fork vs eating utensil
+basin,nature,container,regular_polysemy,2,geological vs sink
+ridge,nature,body,regular_polysemy,2,mountain vs raised line
+valley,nature,low_point,regular_polysemy,2,geographical vs low period
+peak,nature,maximum,regular_polysemy,2,mountain vs highest point
+cape,nature,clothing,homonymy,2,landform vs garment
+sound,nature,audio,homonymy,2,water body vs audio
+bay,nature,architecture,homonymy,2,water body vs recessed area
+bluff,nature,behavior,homonymy,2,cliff vs deception
+range,nature,extent,regular_polysemy,2,mountain range vs scope
+coast,nature,action,regular_polysemy,2,shoreline vs glide
+drift,nature,movement,regular_polysemy,2,snow drift vs gradual movement
+fall,nature,season,regular_polysemy,2,waterfall vs autumn
+flood,nature,abundance,regular_polysemy,2,water overflow vs large amount
+flow,nature,movement,regular_polysemy,2,water flow vs smooth movement
+grove,nature,group,regular_polysemy,2,small forest vs group
+harbor,nature,emotion,regular_polysemy,2,port vs hold feelings
+marsh,nature,name,homonymy,2,wetland vs surname
+plain,nature,adjective,homonymy,2,flat land vs simple
+shore,nature,support,homonymy,2,coastline vs prop up
+run,action,management,regular_polysemy,4,move fast vs operate vs flow vs sequence
+take,action,interpretation,regular_polysemy,4,grab vs accept vs require vs transport
+break,action,pause,regular_polysemy,3,fracture vs pause vs opportunity
+draw,action,art,regular_polysemy,3,sketch vs pull vs attract
+strike,action,labor,regular_polysemy,3,hit vs labor action vs discover
+set,action,group,regular_polysemy,4,place vs group vs configure vs harden
+play,action,drama,regular_polysemy,3,game vs theater vs operate
+check,action,pattern,regular_polysemy,3,verify vs restrain vs pattern
+fire,action,element,regular_polysemy,2,discharge vs flame
+charge,action,accusation,regular_polysemy,3,attack vs accuse vs price
+stand,action,position,regular_polysemy,2,rise vs booth/position
+block,action,object,regular_polysemy,2,obstruct vs solid piece
+cut,action,reduction,regular_polysemy,2,slice vs reduce
+drop,action,decrease,regular_polysemy,2,fall vs small amount
+fall,action,season,regular_polysemy,2,descend vs autumn
+hit,action,success,regular_polysemy,2,strike vs popular success
+hold,action,grasp,regular_polysemy,2,grip vs contain/maintain
+kick,action,thrill,regular_polysemy,2,foot strike vs excitement
+land,action,geography,regular_polysemy,2,arrive vs terrain
+lead,action,material,homonymy,2,guide vs metal
+leave,action,permission,regular_polysemy,2,depart vs permission
+lift,action,ride,regular_polysemy,2,raise vs elevator/ride
+light,action,brightness,regular_polysemy,2,ignite vs illumination
+lock,action,security,regular_polysemy,2,secure vs hair curl
+match,action,equal,regular_polysemy,2,correspond vs fire starter
+miss,action,failure,regular_polysemy,2,fail to hit vs long for
+pass,action,permit,regular_polysemy,3,go by vs permit vs mountain route
+pick,action,choice,regular_polysemy,2,select vs pointed tool
+pitch,action,sports,regular_polysemy,3,throw vs slope vs sales talk
+press,action,media,regular_polysemy,2,push vs news media
+point,abstract,location,regular_polysemy,3,location vs argument vs score unit
+case,abstract,container,regular_polysemy,2,instance vs container
+interest,abstract,finance,regular_polysemy,2,curiosity vs financial return
+matter,abstract,material,regular_polysemy,2,issue vs substance
+issue,abstract,publication,regular_polysemy,2,topic vs edition
+subject,abstract,person,regular_polysemy,2,topic vs person under authority
+article,abstract,object,regular_polysemy,2,essay vs item
+paper,abstract,material,regular_polysemy,2,document vs material
+figure,abstract,body,regular_polysemy,2,number vs shape/person
+degree,abstract,measurement,regular_polysemy,2,extent vs temperature/angle unit
+scale,abstract,measurement,regular_polysemy,3,size vs weighing device vs fish covering
+state,abstract,government,regular_polysemy,2,condition vs nation
+class,abstract,education,regular_polysemy,2,category vs course
+type,abstract,printing,regular_polysemy,2,category vs typeface
+kind,abstract,adjective,homonymy,2,type vs gentle
+form,abstract,shape,regular_polysemy,2,document vs shape
+line,abstract,geometry,regular_polysemy,3,mark vs queue vs product series
+term,abstract,time,regular_polysemy,2,word vs period
+period,abstract,time,regular_polysemy,2,time span vs punctuation
+sense,abstract,meaning,regular_polysemy,2,meaning vs perception
+spirit,abstract,alcohol,regular_polysemy,2,soul/attitude vs liquor
+letter,abstract,communication,regular_polysemy,2,alphabet vs correspondence
+note,abstract,music,regular_polysemy,2,written message vs musical tone
+title,abstract,name,regular_polysemy,2,name vs ownership document
+record,abstract,achievement,regular_polysemy,2,documentation vs best performance
+plot,abstract,land,regular_polysemy,2,story line vs piece of land
+draft,abstract,air,regular_polysemy,2,preliminary version vs air current
+key,abstract,object,regular_polysemy,2,crucial element vs door opener
+base,abstract,bottom,regular_polysemy,2,foundation vs military installation
+stock,abstract,finance,regular_polysemy,2,supply vs shares
+iron,material,action,regular_polysemy,2,metal vs pressing device
+steel,material,resolve,regular_polysemy,2,metal vs determination
+gold,material,color,regular_polysemy,2,metal vs color
+silver,material,color,regular_polysemy,2,metal vs color
+copper,material,color,regular_polysemy,2,metal vs police officer
+bronze,material,color,regular_polysemy,2,metal vs color
+diamond,material,shape,regular_polysemy,2,gem vs shape
+crystal,material,clarity,regular_polysemy,2,mineral vs clear glass
+rock,material,music,homonymy,2,stone vs music genre
+stone,material,seed,regular_polysemy,2,rock vs fruit pit
+brick,material,reliable,regular_polysemy,2,building material vs reliable person
+board,material,organization,regular_polysemy,2,flat wood vs committee
+paper,material,document,regular_polysemy,2,material vs document
+glass,material,container,regular_polysemy,2,material vs drinking vessel
+plastic,material,adjective,regular_polysemy,2,material vs artificial
+rubber,material,eraser,regular_polysemy,2,material vs eraser
+leather,material,durability,regular_polysemy,2,material vs tough
+cotton,material,plant,regular_polysemy,2,material vs plant
+silk,material,luxury,regular_polysemy,2,material vs smooth/luxurious
+wool,material,texture,regular_polysemy,2,material vs confusion (pull wool)
+cord,material,anatomy,regular_polysemy,2,rope vs spinal cord
+thread,material,topic,regular_polysemy,2,string vs conversation topic
+yarn,material,story,regular_polysemy,2,fiber vs tall tale
+ribbon,material,award,regular_polysemy,2,strip vs prize
+tape,material,recording,regular_polysemy,2,adhesive strip vs recording
+wire,material,communication,regular_polysemy,2,metal thread vs telegram
+cable,material,communication,regular_polysemy,2,thick wire vs TV service
+pipe,material,computing,regular_polysemy,2,tube vs data transfer
+tube,material,transport,regular_polysemy,2,cylinder vs subway
+can,material,ability,homonymy,2,container vs ability
+toast,food,honor,regular_polysemy,2,bread vs tribute
+jam,food,trouble,regular_polysemy,2,preserve vs difficult situation
+pickle,food,trouble,regular_polysemy,2,preserved cucumber vs predicament
+butter,food,flattery,regular_polysemy,2,dairy vs flattery
+cream,food,best,regular_polysemy,2,dairy vs top/best
+milk,food,exploit,regular_polysemy,2,dairy vs extract value
+meat,food,substance,regular_polysemy,2,flesh vs core/substance
+beef,food,complaint,regular_polysemy,2,meat vs grievance
+chicken,food,coward,regular_polysemy,2,poultry vs cowardly person
+turkey,food,failure,regular_polysemy,2,bird vs flop
+duck,food,action,homonymy,2,bird vs lower head
+fish,food,search,regular_polysemy,2,seafood vs search for
+crab,food,complain,regular_polysemy,2,shellfish vs complain
+clam,food,silence,regular_polysemy,2,shellfish vs keep quiet
+mussel,animal,body,homonymy,2,shellfish vs muscle (alternate spelling confusion)
+nut,food,person,regular_polysemy,2,seed vs crazy person
+bean,food,head,regular_polysemy,2,legume vs head (slang)
+corn,food,cliche,regular_polysemy,2,grain vs something trite
+rice,food,process,regular_polysemy,2,grain vs force through sieve
+sugar,food,term_of_endearment,regular_polysemy,2,sweetener vs dear
+honey,food,term_of_endearment,regular_polysemy,2,sweetener vs dear
+candy,food,easy,regular_polysemy,2,sweet vs easy task
+cake,food,easy,regular_polysemy,2,dessert vs easy task
+pie,food,whole,regular_polysemy,2,dessert vs share of whole
+cookie,food,technology,homonymy,2,baked good vs browser cookie
+biscuit,food,pottery,regular_polysemy,2,baked good vs unglazed pottery
+bread,food,money,regular_polysemy,2,baked good vs money (slang)
+dough,food,money,regular_polysemy,2,flour mixture vs money (slang)
+gravy,food,bonus,regular_polysemy,2,sauce vs easy money
+sauce,food,alcohol,regular_polysemy,2,condiment vs liquor (slang)

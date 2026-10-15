@@ -1,0 +1,148 @@
+verb,bnc_token,semantic_class,subclass,expected_senses,notes
+# ============================================================
+# MOTION VERBS (20)
+# Inherent direction + manner of motion
+# ============================================================
+run,run_VERB,motion,manner,3,"locomotion / operate / flow"
+walk,walk_VERB,motion,manner,2,"locomotion / pace"
+swim,swim_VERB,motion,manner,1,"primarily monosemous"
+fly,fly_VERB,motion,manner,2,"locomotion / pilot"
+jump,jump_VERB,motion,manner,2,"physical leap / sudden increase"
+crawl,crawl_VERB,motion,manner,2,"physical / slow movement"
+climb,climb_VERB,motion,directed,2,"physical / rise (price)"
+fall,fall_VERB,motion,directed,3,"descend / decrease / autumn-like"
+rise,rise_VERB,motion,directed,2,"go up / increase"
+drop,drop_VERB,motion,directed,2,"fall / decrease"
+sink,sink_VERB,motion,directed,2,"submerge / decline"
+move,move_VERB,motion,general,2,"physical / emotional"
+travel,travel_VERB,motion,general,1,"primarily monosemous"
+arrive,arrive_VERB,motion,endpoint,1,"primarily monosemous"
+depart,depart_VERB,motion,endpoint,1,"primarily monosemous"
+leave,leave_VERB,motion,endpoint,3,"depart / bequeath / abandon"
+escape,escape_VERB,motion,endpoint,2,"flee / avoid"
+chase,chase_VERB,motion,pursuit,2,"pursue / seek"
+follow,follow_VERB,motion,pursuit,2,"pursue / comply"
+return,return_VERB,motion,endpoint,2,"come back / yield"
+# ============================================================
+# TRANSFER / POSSESSION VERBS (15)
+# Change of possession
+# ============================================================
+give,give_VERB,transfer,positive,2,"transfer / yield"
+take,take_VERB,transfer,negative,4,"grab / accept / require / transport"
+send,send_VERB,transfer,positive,1,"dispatch"
+receive,receive_VERB,transfer,positive,2,"get / welcome"
+buy,buy_VERB,transfer,commercial,2,"purchase / believe (slang)"
+sell,sell_VERB,transfer,commercial,2,"trade / persuade"
+pay,pay_VERB,transfer,commercial,2,"compensate / yield"
+borrow,borrow_VERB,transfer,temporary,1,"primarily monosemous"
+lend,lend_VERB,transfer,temporary,2,"loan / contribute"
+steal,steal_VERB,transfer,illicit,2,"take illegally / move stealthily"
+share,share_VERB,transfer,distributive,2,"divide / communicate"
+offer,offer_VERB,transfer,proposal,2,"present / propose"
+accept,accept_VERB,transfer,positive,2,"receive / agree"
+refuse,refuse_VERB,transfer,negative,1,"primarily monosemous"
+keep,keep_VERB,transfer,retention,3,"retain / maintain / continue"
+# ============================================================
+# COMMUNICATION VERBS (15)
+# Verbal/symbolic exchange
+# ============================================================
+say,say_VERB,communication,general,2,"utter / suppose"
+tell,tell_VERB,communication,general,2,"inform / discern"
+ask,ask_VERB,communication,inquiry,2,"question / request"
+answer,answer_VERB,communication,response,2,"reply / respond to"
+speak,speak_VERB,communication,general,2,"vocalize / address"
+talk,talk_VERB,communication,general,2,"converse / persuade"
+write,write_VERB,communication,written,2,"compose text / inscribe"
+read,read_VERB,communication,reception,3,"decode text / interpret / register"
+declare,declare_VERB,communication,formal,2,"announce / state for customs"
+announce,announce_VERB,communication,formal,1,"primarily monosemous"
+explain,explain_VERB,communication,exposition,1,"primarily monosemous"
+describe,describe_VERB,communication,exposition,1,"primarily monosemous"
+argue,argue_VERB,communication,disputative,2,"debate / quarrel"
+discuss,discuss_VERB,communication,exchange,1,"primarily monosemous"
+promise,promise_VERB,communication,commitment,2,"pledge / indicate"
+# ============================================================
+# PERCEPTION VERBS (10)
+# Sensory input
+# ============================================================
+see,see_VERB,perception,visual,3,"perceive / understand / meet"
+look,look_VERB,perception,visual,3,"gaze / appear / search"
+watch,watch_VERB,perception,visual,2,"observe / be cautious"
+hear,hear_VERB,perception,auditory,2,"perceive sound / learn (news)"
+listen,listen_VERB,perception,auditory,2,"attend to sound / obey"
+feel,feel_VERB,perception,tactile,3,"touch / sense emotion / believe"
+touch,touch_VERB,perception,tactile,2,"contact / move emotionally"
+taste,taste_VERB,perception,gustatory,2,"sample flavor / experience"
+smell,smell_VERB,perception,olfactory,2,"perceive odor / suspect"
+notice,notice_VERB,perception,attention,1,"primarily monosemous"
+# ============================================================
+# COGNITION VERBS (15)
+# Mental states and processes
+# ============================================================
+know,know_VERB,cognition,knowledge,2,"be aware / be acquainted"
+think,think_VERB,cognition,reasoning,3,"reason / believe / consider"
+believe,believe_VERB,cognition,belief,2,"accept as true / have faith"
+understand,understand_VERB,cognition,comprehension,1,"primarily monosemous"
+remember,remember_VERB,cognition,memory,2,"recall / be mindful"
+forget,forget_VERB,cognition,memory,2,"lose memory / disregard"
+learn,learn_VERB,cognition,acquisition,2,"acquire knowledge / discover"
+recognize,recognize_VERB,cognition,identification,2,"identify / acknowledge"
+imagine,imagine_VERB,cognition,fantasy,2,"visualize / suppose"
+decide,decide_VERB,cognition,resolution,1,"primarily monosemous"
+choose,choose_VERB,cognition,selection,1,"primarily monosemous"
+consider,consider_VERB,cognition,deliberation,2,"think about / regard as"
+suppose,suppose_VERB,cognition,hypothesis,2,"assume / imply obligation"
+guess,guess_VERB,cognition,estimation,2,"estimate / suppose"
+realize,realize_VERB,cognition,recognition,2,"become aware / make real"
+# ============================================================
+# CHANGE-OF-STATE VERBS (15)
+# Transformation, transition
+# ============================================================
+break,break_VERB,change_of_state,destruction,3,"fracture / pause / breach"
+build,build_VERB,change_of_state,construction,2,"construct / develop gradually"
+make,make_VERB,change_of_state,creation,3,"create / cause / earn"
+create,create_VERB,change_of_state,creation,1,"primarily monosemous"
+destroy,destroy_VERB,change_of_state,destruction,1,"primarily monosemous"
+grow,grow_VERB,change_of_state,increase,2,"develop / cultivate"
+shrink,shrink_VERB,change_of_state,decrease,2,"contract / recoil"
+change,change_VERB,change_of_state,general,2,"alter / exchange"
+turn,turn_VERB,change_of_state,rotation,3,"rotate / become / take turn"
+burn,burn_VERB,change_of_state,combustion,2,"combust / ache (slang)"
+freeze,freeze_VERB,change_of_state,phase,2,"solidify / halt"
+melt,melt_VERB,change_of_state,phase,2,"liquefy / soften emotionally"
+open,open_VERB,change_of_state,access,2,"unclose / commence"
+close,close_VERB,change_of_state,access,2,"shut / conclude"
+cut,cut_VERB,change_of_state,division,2,"sever / reduce"
+# ============================================================
+# ACTION / MANIPULATION VERBS (15)
+# Direct physical action on objects
+# ============================================================
+hit,hit_VERB,action,impact,2,"strike / reach (target)"
+strike,strike_VERB,action,impact,3,"hit / labor action / discover"
+push,push_VERB,action,force,2,"shove / promote"
+pull,pull_VERB,action,force,2,"tug / attract"
+throw,throw_VERB,action,projectile,2,"hurl / host (party)"
+catch,catch_VERB,action,acquisition,3,"grab / contract (disease) / detect"
+grab,grab_VERB,action,acquisition,1,"primarily monosemous"
+hold,hold_VERB,action,retention,2,"grip / contain/maintain"
+carry,carry_VERB,action,transport,2,"transport / sustain"
+lift,lift_VERB,action,vertical,2,"raise / steal (slang)"
+drop,drop_VERB,action,vertical,2,"release / decrease"
+press,press_VERB,action,force,2,"push / urge"
+draw,draw_VERB,action,extraction,3,"sketch / pull / attract"
+hit,hit_VERB,action,impact,2,"strike / popular success"
+play,play_VERB,action,performance,3,"game / theater / operate"
+# ============================================================
+# ASPECTUAL VERBS (10)
+# Verbs about events themselves
+# ============================================================
+begin,begin_VERB,aspectual,inception,1,"primarily monosemous"
+start,start_VERB,aspectual,inception,2,"begin / startle"
+continue,continue_VERB,aspectual,duration,1,"primarily monosemous"
+stop,stop_VERB,aspectual,cessation,2,"cease / prevent"
+finish,finish_VERB,aspectual,completion,2,"complete / consume entirely"
+end,end_VERB,aspectual,cessation,1,"primarily monosemous"
+last,last_VERB,aspectual,duration,1,"primarily monosemous"
+remain,remain_VERB,aspectual,persistence,1,"primarily monosemous"
+keep,keep_VERB,aspectual,continuation,2,"continue / retain"
+quit,quit_VERB,aspectual,cessation,2,"stop / resign"

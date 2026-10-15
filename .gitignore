@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+*.egg-info/
+build/
+dist/
+.DS_Store
+# large embedding files (download separately; see README)
+*.gz
+*.vec
+*.bin
+*.txt.gz
