@@ -28,7 +28,7 @@ depends on anchor quality, not the number of noisy copies (N). Even N=3
 achieves perfect separation when anchors are good.
 
 Six capabilities on the supervision continuum:
-  - discover_senses_auto():      Unsupervised - spectral clustering (90% at 50d)
+  - discover_senses_auto():      Unsupervised - spectral clustering
   - discover_senses():           Semi-supervised - user specifies k
   - separate_senses_wordnet():   WordNet-guided - lexicographic structure + geometry
   - induce_senses():             Weakly supervised - anchor-guided (88% accuracy)
@@ -39,7 +39,7 @@ Basic Usage:
     >>> from sense_explorer import SenseExplorer
     >>> se = SenseExplorer.from_glove("glove.6B.300d.txt")
     
-    # Unsupervised discovery (spectral, 90% at 50d)
+    # Unsupervised discovery (spectral)
     >>> senses = se.discover_senses_auto("bank")
     
     # WordNet-guided separation
