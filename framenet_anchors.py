@@ -3,6 +3,12 @@
 FrameNet-Inspired Anchor Discovery
 ==================================
 
+WITHDRAWN EVALUATION (kept for the record; see the paper, Appendix A).
+This script does not read FrameNet: its "frames" are hand-written anchor lists,
+and its keyword scoring overlaps those anchors (4-12 of 10-14 keywords), which
+makes the "8 of 8" FrameNet result of the reviewed version circular. The
+FrameNet evaluation reported in the paper is framenet_eval.py (FrameNet 1.7).
+
 Key insight: Anchor words ≈ Frame Elements
 
 FrameNet defines frames as schematic situations with:

@@ -3,7 +3,12 @@ SenseExplorer: From Sense Discovery to Sense Induction via Simulated Self-Repair
 =================================================================================
 
 A lightweight, training-free framework for exploring word sense structure
-in static embeddings using biologically-inspired self-repair.
+in static embeddings. SSR is read as Spectral Sense Recovery: senses come from
+spectral clusters of a word's neighbors; the repair step leaves them unchanged.
+
+NOTE (SSR-ICLLL snapshot): accuracy figures quoted in docstrings come from earlier
+internal experiments and are not reproduced by this repository; the eigengap-vs-BIC
+figures (90% / 64% at 50d) are retracted. The paper's numbers are the reference.
 
 Package Structure:
     sense_explorer (this package)

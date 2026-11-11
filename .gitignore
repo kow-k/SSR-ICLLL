@@ -9,3 +9,16 @@ dist/
 *.vec
 *.bin
 *.txt.gz
+
+# local run outputs and personal run scripts (not part of the release)
+/1. results/
+/1. results-table2-check/
+/rerun_centroids/
+/rerun_centroids.zip
+/sense_localization_output/
+/centroid-vs-ssr-cosines.txt
+/check-*.sh
+/batch-*.sh
+/*.csv
+/*.log
+/embeddings/

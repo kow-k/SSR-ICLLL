@@ -6,8 +6,12 @@ SenseExplorer: From Sense Discovery to Sense Induction via Simulated Self-Repair
 A lightweight, training-free framework for exploring word sense structure
 in static embeddings (GloVe, Word2Vec, FastText, etc.).
 
-Inspired by DNA self-repair mechanisms: noise + self-organization
-reveals latent sense structure encoded as stable attractors.
+The noise-and-repair step ('self-repair') leaves the spectral cluster centroids
+essentially unchanged; SSR is read as Spectral Sense Recovery (see README).
+
+NOTE (SSR-ICLLL snapshot): accuracy figures quoted in docstrings come from earlier
+internal experiments and are not reproduced by this repository; the eigengap-vs-BIC
+figures (90% / 64% at 50d) are retracted. The paper's numbers are the reference.
 
 Five operational modes on the supervision continuum:
   - discover_senses_auto(): UNSUPERVISED - geometry decides k and content
@@ -214,8 +218,8 @@ class SenseExplorer:
             n_anchors: Number of anchors per sense for auto-discovery
             top_k: Number of neighbors for clustering (default: 50)
             clustering_method: Method for unsupervised discovery:
-                              'spectral' (default, 90% accuracy at 50d)
-                              'xmeans' (BIC-based, 64% accuracy at 50d)
+                              'spectral' (default)
+                              'xmeans' (BIC-based)
                               'kmeans' (requires n_senses)
             use_hybrid_anchors: Use hybrid anchor extraction (FrameNet + WordNet)
                                Achieves 88% accuracy vs 56% for auto-discovery
@@ -660,8 +664,7 @@ class SenseExplorer:
         This is true sense discovery: senses emerge from the distributional
         structure alone, with no external knowledge or anchor guidance.
         
-        With spectral clustering (default): achieves ~90% accuracy at 50d
-        With X-means: achieves ~64% accuracy at 50d
+        Clustering: spectral (default) or X-means.
         
         Args:
             word: Target word
@@ -1874,8 +1877,9 @@ class SenseExplorer:
         
         Automatically determines the optimal number of senses.
         
-        With spectral clustering (default): uses eigengap heuristic (90% at 50d)
-        With X-means: uses BIC criterion (64% at 50d)
+        With spectral clustering (default): uses the eigengap heuristic
+        With X-means: uses the BIC criterion
+        (Neither detects the sense count reliably; see the paper, Sec. IV-F.)
         
         Args:
             word: Target word

@@ -9,7 +9,8 @@ Theoretical motivation: If word senses are superposed like waves,
 spectral decomposition (eigenvector analysis) should outperform
 statistical clustering (BIC-based k selection).
 
-Experimental validation (90% vs 64% at 50d) confirms this prediction.
+(An earlier internal comparison, 90% vs 64% at 50d, is retracted: the eigengap
+rarely detects the sense count; see the paper, Sec. IV-F.)
 
 Author: Kow Kuroda & Claude
 """
@@ -232,8 +233,7 @@ def discover_anchors_spectral(
     """
     Discover sense anchors via spectral clustering with eigengap k selection.
     
-    This is the recommended method for unsupervised sense discovery,
-    achieving 90% accuracy compared to 64% for X-means at 50d.
+    This is the recommended method for unsupervised sense discovery.
     
     Theoretical motivation: If senses are superposed like waves,
     spectral decomposition (eigenvector analysis) should identify
